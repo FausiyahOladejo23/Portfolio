@@ -1,0 +1,446 @@
+
+.container {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.first {
+    max-width: 100%;
+    min-height: 690px;
+    background-color: #502;
+    clip-path: polygon(0 0, 100% 0%, 100% 50%, 0% 100%);
+    filter: drop-shadow(0 20px 40px rgba(15, 23, 42, 0.05));
+    box-shadow: 0 0 0 90px rgba(15, 23, 42, 0.05);
+    filter: blur(3px); 
+}
+.join {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+.about {
+    background-color: #fff;
+    color: #000;
+    max-width: 100%;
+    height: auto;
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 165px;
+    box-shadow: 7px 7px 3px rgba(15, 23, 42, 0.05);
+}
+.logosone {
+    max-width: 45%;
+    max-height: 45px;
+    display: flex;
+    flex-direction: row;
+    margin:-25px 0px 35px 119px;
+    justify-content: space-between;
+    /*
+    justify-content: right;*/
+}
+.logosone img {
+    max-width: 65%;
+    max-height: 45px;
+}
+.about h1 {
+    text-align: center;
+    line-height: 25px;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+.about p {
+    margin: 70px;
+    line-height: 35px;
+    max-width: 90%;
+}
+.firstimg {
+    max-width: 76%;
+    min-height: 510px;
+    margin-top: 50px;
+    margin-left: 57px;
+}
+.joinimg p {
+    text-align: justify;
+    margin-top: 0;
+    font-size: 80px;
+    position: absolute;
+    top: 360px;
+    left: 60px;
+    color: #000;
+}
+
+.mywork {
+    position: relative;
+    top: 0px;
+    left: 25px;
+    max-width: 80%;
+}
+.myworkh1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 870px 0 0 0;
+    z-index: 1;
+}
+.rowone {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.rowtwo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.one, .two, .three, .ones, .twos, .threes {
+    box-shadow: 7px 7px 3px rgba(15, 23, 42, 0.05);
+    max-width: 100%;
+    margin: 27px;
+}
+.one h2, .two h2, .three h2, .ones h2, .twos h2, .threes h2 {
+    color: #fff;
+    max-width: 100%;
+    min-height: 250px;
+    text-align: center;
+    padding: 60px 130px 0px 80px;
+    line-height: 50px;
+    font-size: 28px ;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-left: 25px;
+}
+.one h2 {
+    background-color: #530;
+}
+.two h2 {
+    background-color: #737;
+}
+.three h2 {
+    background-color: #017;
+}
+.ones h2 {
+    background-color: #259;
+}
+.twos h2 {
+    background-color: #665;
+}
+.threes h2 {
+    background-color: #883;
+}
+.projectinfo {
+    margin: 0px 0px 0px 30px;
+}
+.projectinfo h3 {
+    font-size: 25px;
+    padding: 0 0 0 10px;
+}
+.projectinfo p {
+    padding: 2px 2px 0 5px;
+    font-size: 17px;
+    line-height: 27px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.contact {
+    position: relative;
+    top: 160px;
+    left: 0px;
+    max-width: 100%;
+    background-color: #502;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+.pic {
+    max-width: 100%;
+    min-height: 150px;
+    margin: 30px 0 0 0px;
+}
+.pic img {
+    max-width: 100%;
+}
+.contact .info {
+    text-align: justify;
+    margin: 0px 0 0 60px;
+    font-size: 17px;
+    line-height: 37px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding: 40px 0 0 0px;
+}
+.contact .info h2 {
+    text-align: left;
+}
+.logostwo {
+    max-width: 45%;
+    max-height: 45px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 15px 62px;
+    justify-content: space-between;
+}
+.logostwo img {
+    max-width: 50%;
+    max-height: 35px;
+}
+.logothree {
+    max-width: 26%;
+    max-height: 19px;
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0px 15px 200px;
+    justify-content: space-between;
+}
+.logothree img {
+    max-width: 46%;
+    max-height: 40px;
+}
+
+
+
+
+
+
+
+/* Tablet*/
+@media (min-width: 768px){
+.first {
+    z-index: -2;
+}
+.join {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+.about p {
+    margin: 70px;
+    line-height: 32px;
+}
+.about {
+    max-width: 75%;
+    min-height: 150px;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 117px;
+    margin-left: -540px;
+    z-index: -1;
+}
+.about h1 {
+    text-align: center;
+    line-height: 25px;
+    max-width: 100%;
+}
+.firstimg {
+    max-width: 60%;
+    min-height: 360px;
+    margin-top: 40px;
+}
+.joinimg p {
+    text-align: end;
+    font-size: 48px;
+    margin: -320px 0 0 315px;
+}
+.mywork {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.myworkh1 {
+    font-size: 25px;
+    text-align: left;
+    margin: 70px 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.one h2, .two h2, .three h2, .ones h2, .twos h2, .threes h2 {
+    max-width: 80%;
+    min-height: 200px;
+    padding: 80px 70px 30px 60px;
+    line-height: 40px;
+    font-size: 30px;
+}
+.one, .two, .three, .ones, .twos, .threes {
+    max-width: 100%;
+    margin: 50px 20px 10px 10px;
+}
+.contact {
+    position: relative;
+    top: 90px;
+    left: 0px;
+    max-width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.contact .info {
+    margin: 0px 0 0 20px;
+    padding: 10px 0 0 0px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+}
+.contact .info h2 {
+    text-align: center;
+}
+.contact .pic {
+    text-align: justify;
+    margin: 30px 30px 0px 50px;
+    font-size: 20px;
+}
+.pic img {
+    max-width: 100%;
+    min-height: 335px;
+}
+.logostwo {
+    max-width: 55%;
+    max-height: 30px;
+    margin: 25px 0px 25px 55px;
+    justify-content: space-between;
+}
+.logostwo img {
+    max-width: 30%;
+    max-height: 40px;
+}
+.logothree {
+    max-width: 22%;
+    max-height: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0px 15px 200px;
+    justify-content: space-between;
+}
+.logothree img {
+    max-width: 44%;
+    max-height: 40px;
+}
+}
+
+
+
+
+
+/* Desktop*/
+@media (min-width: 1024px){
+.join {
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+}
+.about p {
+    margin: 70px;
+    line-height: 32px;
+}
+.firstimg {
+    max-width: 90%;
+    max-height: 630px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.about {
+    max-width: 60%;
+    max-height: 400px;
+    font-size: 23px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 113px;
+    margin-left: -42px;
+}
+.about h1 {
+    text-align: center;
+    line-height: 25px;
+    max-width: 100%;
+}
+.logosone {
+    max-width: 32%;
+    max-height: 35px;
+    display: flex;
+    flex-direction: row;
+    margin:-30px 0px 0px 440px;
+    justify-content: space-between;
+}
+.logosone img {
+    max-width: 65%;
+    max-height: 45px;
+}
+.joinimg p {
+    text-align: center;
+    font-size: 57px;
+    margin: 160px 0 0 0px;
+}
+.mywork {
+    position: relative;
+    top: 40px;
+    left: 70px;
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.myworkh1 {
+    font-size: 50px;
+    text-align: left;
+    margin: 100px 0px 0px 130px;
+}
+
+.rowone {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rowtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one h2, .two h2, .three h2, .ones h2, .twos h2, .threes h2 {
+    max-width: 100%;
+    min-height: 200px;
+    padding: 55px 0 0 0;
+    line-height: 50px;
+    font-size: 35px;
+}
+.one, .two, .three, .ones, .twos, .threes {
+    max-width: 85%;
+    margin: 30px;
+}
+.contact {
+    position: relative;
+    top: 200px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.contact .info {
+    margin: 0px 0 0 160px;
+    padding: 40px 0 0 0px;
+    font-size: 23px;
+}
+.contact .info h2 {
+    text-align: center;
+}
+.pic img {
+    min-width: 100%;
+    margin: 30px 10px 20px 30px;
+    padding-bottom: 20px;
+}
+.logostwo {
+    max-width: 60%;
+    margin: 30px 0px 25px 70px;
+    justify-content: space-between;
+}
+.logothree {
+    margin: -50px 0px 15px 230px;
+    justify-content: space-between;
+}
+}
